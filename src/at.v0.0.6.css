@@ -1,0 +1,457 @@
+body {
+	color: #6e6e6e !important;
+}
+
+a {
+	color: #77627d;
+}
+
+a:hover {
+	color: #77627d !important;
+}
+
+.pkp_structure_page {
+	box-shadow: none !important;
+	border: 1px solid #c6bdb0 !important;
+	overflow: clip;
+}
+
+.pkp_site_name_wrapper {
+	position: relative;
+	background-color: #d0d0d0 !important;
+	aspect-ratio: 58 / 9;
+	width: 100%;
+	height: 100% !important;
+}
+
+.pkp_site_name_wrapper::before {
+	position: absolute;
+	background: url(https://cdn.statically.io/gh/yudyananda/atfaluna@main/public/at_header_logo.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.pkp_site_name {
+	.is_text {
+		display: none;
+	}
+}
+
+.obj_issue_toc .section > h3 {
+	margin-top: 5rem !important;
+	font-size: 1.8rem !important;
+}
+
+.pkp_brand_footer {
+	display: none;
+}
+
+.sidebar-menu {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4rem;
+}
+
+.cm-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.7rem;
+	.cm-title {
+		font-size: 1.35rem;
+		font-weight: 700;
+		font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+		color: #9f9686;
+	}
+}
+.cm-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	counter-reset: cm-counter;
+	list-style: none !important;
+	padding-left: 0 !important;
+}
+.cm-item {
+	counter-increment: cm-counter;
+	-webkit-user-select: none;
+	user-select: none;
+	a {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-radius: 4px;
+		font-size: 1.05rem;
+		color: aliceblue;
+		background-color: #9f9686;
+		padding-inline: 16px;
+		padding-block: 7px;
+	}
+	a:hover {
+		background-color: rgb(130, 123, 110);
+	}
+	a::after {
+		position: absolute;
+		content: counter(cm-counter, decimal-leading-zero);
+		right: 16px;
+		display: none;
+	}
+}
+
+.pkp_footer_content {
+	background: #d0d0d0 !important;
+}
+
+.footer-topside {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 5rem;
+}
+
+.footer-topside .column .footer-column-title {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 1.15rem;
+	color: #77627d !important;
+}
+
+.footer-topside .column p {
+	opacity: 0.8;
+}
+
+.footer-topside .column p a {
+	color: #77627d;
+}
+
+.pkp_site_nav_menu {
+	background-color: transparent !important;
+	padding: 0;
+}
+
+.pkp_navigation_user > li > a {
+	color: white;
+}
+
+.pkp_navigation_user > li > a:hover {
+	color: white !important;
+}
+
+.pkp_site_nav_menu ul ul li a {
+	color: #77627d !important;
+}
+
+.pkp_navigation_search_wrapper a {
+	color: #77627d !important;
+}
+
+.pkp_page_index .homepage_about {
+	padding-bottom: 5rem !important;
+}
+
+.homepage_about h2 {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 2rem;
+	color: #77627d;
+}
+
+.pkp_structure_main .page {
+	padding-top: 2rem;
+}
+
+.pkp_structure_main .page h1 {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	color: #77627d;
+}
+
+#pkp_content_main {
+	padding-inline: 0 !important;
+	width: 100% !important;
+}
+.obj_issue_summary {
+	display: flex;
+	flex-direction: column;
+}
+
+.obj_issue_summary .title {
+	font-size: 1.4rem;
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.obj_issue_summary .series {
+	display: none;
+}
+
+.obj_article_details > .subtitle {
+	color: #b4b4b4;
+	font-size: 1.05rem;
+}
+
+.obj_article_details .authors .name {
+	text-transform: capitalize;
+	color: #77627d;
+}
+
+.obj_article_details .main_entry .item .label {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 1.4rem;
+}
+
+.pkp_site_name {
+	color: white;
+	font-weight: 300;
+}
+
+.pkp_structure_main h3 {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	color: #77627d;
+	font-size: 1.4rem;
+}
+
+.pkp_structure_main p {
+	line-height: 1.785rem;
+	margin: 1.43rem 0;
+	font-size: 1.05rem;
+}
+
+.pkp_structure_main h2 {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 2.2rem;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0.6rem;
+	color: #77627d !important;
+}
+
+.pkp_page_index .current_issue h2 {
+	text-transform: capitalize !important;
+	font-size: 1.8rem !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 2rem;
+}
+
+.pkp_page_index .current_issue .current_issue_title {
+	margin: 0;
+	font-weight: 600;
+}
+
+.pkp_structure_sidebar .title {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	color: #77627d;
+}
+
+.pkp_page_index .current_issue .read_more {
+	color: #77627d;
+	margin-top: 4rem;
+}
+
+.pkp_page_index .current_issue .read_more:hover {
+	color: #77627d;
+}
+
+.block_make_submission a {
+	display: flex !important;
+	background-color: #77627d !important;
+	color: white !important;
+	width: fit-content !important;
+}
+
+.pub_id.doi {
+	display: flex !important;
+}
+
+.obj_issue_toc .pub_id {
+	margin: 0.5rem 0;
+}
+
+.obj_issue_toc .published {
+	margin: 0.3rem 0;
+}
+
+.obj_issue_toc .sections:not(:first-child) {
+	margin-top: 0 !important;
+}
+
+.obj_article_summary {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5rem;
+}
+
+.obj_article_summary .title {
+	font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 1.2rem;
+	color: #77627d !important;
+}
+
+.obj_article_summary .subtitle {
+	font-size: 1.13rem;
+	color: #828181;
+}
+
+.obj_article_summary .title a {
+	color: #77627d !important;
+}
+
+.obj_article_summary .authors-section {
+	display: none !important;
+}
+
+.obj_article_summary .meta {
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	color: #77627d;
+}
+
+.obj_article_summary .stats_container {
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+
+.obj_galley_link.pdf {
+	background-color: #77627d !important;
+	color: white;
+}
+
+.reviewers,
+.teams {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	list-style: none;
+	padding-left: 0;
+	gap: 1rem;
+	margin: 0 auto;
+	.reviewer-item,
+	.team-item {
+		width: 235px;
+		align-self: stretch;
+		background-color: #f6f6f6;
+		padding: 1rem;
+		border: 1px solid #eaebe6;
+		border-radius: 0.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		.reviewer-name,
+		.team-name {
+			font-size: 1.2rem;
+			font-weight: 600;
+			font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+			color: #77627d;
+			margin: 0;
+		}
+		.reviewer-meta,
+		.team-meta {
+			margin-top: 0.25rem;
+			margin-bottom: 1rem;
+			display: flex;
+			flex-direction: column;
+			gap: 0.125rem;
+			font-size: 0.875rem;
+			font-style: italic;
+		}
+		.reviewer-stats,
+		.team-stats {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			font-size: 0.75rem;
+			.reviewer-stat,
+			.team-stat {
+				background-color: #77627d;
+				border-radius: 999px;
+				padding-inline: 1rem;
+				padding-block: 0.25rem;
+				a {
+					color: white;
+				}
+				a:hover {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+.logos {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 40px;
+	margin-top: 4rem;
+}
+
+.doi {
+	width: 40px;
+}
+
+.moraref {
+	width: 70px;
+}
+
+.google_scholar {
+	width: 60px;
+}
+
+.garuda {
+	width: 120px;
+}
+
+.crossref {
+	width: 100px;
+}
+
+.scilit {
+	width: 70px;
+}
+
+.copernicus {
+	width: 160px;
+}
+
+.dimensions {
+	width: 160px;
+}
+
+.base {
+	width: 100px;
+}
+
+.research_bib {
+	width: 70px;
+}
+
+.world_cat {
+	width: 130px;
+}
+
+.open_aire {
+	width: 100px;
+}
+
+.leiden {
+	width: 180px;
+}
+
+.harvard {
+	width: 140px;
+}
+
+.advance_science {
+	width: 220px;
+}
+
+.edinburgh {
+	width: 200px;
+}
+
+.saskatchewan {
+	width: 160px;
+}
+
+.europub {
+	width: 127px;
+}
