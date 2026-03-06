@@ -52,7 +52,7 @@ a:hover {
 .sidebar-menu {
   display: flex;
   flex-direction: column;
-  row-gap: 4rem;
+  row-gap: 2rem;
 }
 
 .cm-wrapper {
